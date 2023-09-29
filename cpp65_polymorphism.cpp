@@ -3,7 +3,7 @@ using namespace std;
 /*  
     polymorphism------->
         1. poly = many  and morphism = forms
-        eg.fucntion overloading,virtual fucntion and operator overloading
+        eg.fucntion overloading, method overloading, virtual fucntion and operator overloading
 
     different type of polymorphism---------->
 
@@ -17,6 +17,7 @@ using namespace std;
         2.runtime polymorphism
             (i)way to acheive rumtime polymorphism
                 1.virtual function.
+                2.method overloading.
             (ii)In this polymorphism pahle se binding nahi hoti hai,that's why this is called" late binding".
 */
 int main(){

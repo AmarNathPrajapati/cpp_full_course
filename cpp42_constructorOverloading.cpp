@@ -5,7 +5,7 @@ constructor Overloading---->
     1.More than one constructor can be possible in a class.
 */
 class complex{
-    int a,b;
+    int a=0,b=0;
     public:
         complex(int x , int y){
             a= x;

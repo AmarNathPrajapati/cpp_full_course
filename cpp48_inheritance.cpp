@@ -17,7 +17,7 @@ Some important type of inheritance----->
         derived class with more than one base class.
         employee----------->
                             Programmer
-        assistance--------->
+        assistant--------->
     
     3.Hierarchical inheritance------> it is another form of single inheritance
         Several derived class from a single base class.
@@ -32,7 +32,7 @@ Some important type of inheritance----->
     5.Hybrid inheritace-----> 
         hybrid = hierarchical + multiple + multilevel
                  B------------>
-        A-------->             D     
+        A-------->             -------->D     
                  C------------>
 
     

@@ -8,13 +8,13 @@ using namespace std;
 class base1{
     public:
         void greet(){
-            cout << "How are you?"<<endl;
+            cout << "How are you from base1?"<<endl;
         }
 };
 class base2{
     public:
         void greet(){
-            cout << "How are you?"<<endl;
+            cout << "How are you from base2?"<<endl;
         }
 };
 class derived:public base1, public base2{

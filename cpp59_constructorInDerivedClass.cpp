@@ -8,8 +8,9 @@ using namespace std;
     5.order of excution is important.
 */
 class Base1{
-    int data1;
+    int data1=10;
     public:
+        Base1(){}
         Base1(int d){
             data1=d;
             cout<<"Base1 class constructor was called"<<endl;
@@ -19,8 +20,9 @@ class Base1{
         }
 };
 class Base2{
-    int data2;
+    int data2=20;
     public:
+        Base2(){}
         Base2(int d){
             data2=d;
             cout<<"Base2 class constructor was called"<<endl;

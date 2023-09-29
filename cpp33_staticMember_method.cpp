@@ -4,9 +4,10 @@ using namespace std;
     1.here I want to declare a variable "which is same for all the object".
     because as we know "class ka har ek variable different class ke liye different value le sakta hai."
     so, solve this problem we use static variable.
+    
     2.default value of static variable is always zero.
     3.static variable is shared by all object.
-    4.lifitime of static variable -"till termination of the program"
+    4.lifetime of static variable -"till termination of the program"
 
     **********static method*************
     1.static member function only can access static member.

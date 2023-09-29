@@ -31,15 +31,17 @@ int main(){
     string str = "Chandan bhai";
     string str2;
     //opening a file using costructor and writing it.
-    // ofstream Amar("sam.txt");  // assume that a pipe is inserted b/w files.
-    // Amar<<str;
+    ofstream Amar("sam3.txt");  // assume that a pipe is inserted b/w files.
+    Amar<<str;
 
 
     //opening a file using constructor and read it.
     ifstream chandan("sam2.txt");
     // chandan>>str2;
-    getline(chandan,str2);
-    cout<<str2;
+    while(chandan.eof()==0){
+        getline(chandan,str2);
+        cout<<str2;
+    }
     chandan.close();//connection cut.
 return 0;
 }

@@ -24,13 +24,14 @@ int main(){
     derived d;
     base *base_ptr;
     derived*derived_ptr;
-    base_ptr = &d;// focus on
-    // base_ptr->a = 10;
-    // base_ptr->display();
+    base_ptr = &d;// focus on 
+    // derived_ptr = &d;
+    base_ptr->a = 15;
     // derived_ptr = &b;//you can't assign address of base class to derived class pointer.
     
-    derived_ptr->a = 10;
-    derived_ptr->b=20;
-    derived_ptr->display();
+    // derived_ptr->a = 10;
+    // derived_ptr->b=20;
+    base_ptr->display();
+    // derived_ptr->display();
 return 0;
 }

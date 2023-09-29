@@ -14,7 +14,8 @@ int main(){
     money m;
     // m.joru = 'c';// now value of joru was overwrite
     m.jar = 105;//now value of joru is overwrite by jar
-    cout << "Our real daulat is " << m.joru<<endl;
+    // cout << "Our real daulat is " << m.joru<<endl;(generate random value)
     cout << "Our real daulat is " << m.jar<<endl;
+    // cout << "Our real daulat is " << m.jameen<<endl;
 return 0;
 }
